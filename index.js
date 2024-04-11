@@ -1,6 +1,5 @@
 const wrapper = document.querySelector(".wrapper"),
 searchInput = wrapper.querySelector("input"),
-volume = wrapper.querySelector(".word i"),
 infoText = wrapper.querySelector(".info-text"),
 removeIcon = wrapper.querySelector(".search span");
 
