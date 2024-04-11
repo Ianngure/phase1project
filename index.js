@@ -16,5 +16,4 @@ function data(result, word){
         document.querySelector(".meaning span").innerText = definitions.definition;
         document.querySelector(".example span").innerText = definitions.example;
        
-    }
-}
+    
