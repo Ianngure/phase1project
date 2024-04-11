@@ -4,7 +4,7 @@
 #### By Ian Kagari 
 
 ## Description
-Its a fully functional web Dictionary
+Its a fully functional web Dictionary.
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
