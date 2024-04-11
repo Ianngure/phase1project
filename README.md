@@ -25,7 +25,7 @@ Git clone https://github.com/Ianngure/phase1project
 HTML.
 CSS.
 Github.
-Javascript
+Javascript.
 
 ## Support and contact details
 github.com/Ianngure
