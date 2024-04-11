@@ -6,7 +6,15 @@
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
- 
+#navigation{
+  background-color: black;
+  min-height: 100vh;
+} 
+#pnglogo{
+  width: 250px;
+  height: 250px;
+
+}
 *{
     margin: 0;
     padding: 0;
