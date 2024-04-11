@@ -23,7 +23,7 @@ Git clone https://github.com/Ianngure/phase1project
 
 ## Technologies used
 HTML.
-CSS
+CSS.
 Github
 Javascript
 
