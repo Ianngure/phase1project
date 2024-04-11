@@ -22,7 +22,31 @@ function data(result, word){
             fetchApi(word);
             searchInput.value = word;
         }
+        function fetchApi(word){
+            wrapper.classList.remove("active");
+            infoText.style.color = "#000";
+            infoText.innerHTML = `Searching the meaning of <span>"${word}"</span>`;
+            let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+            fetch(url).then(response => response.json()).then(result => data(result, word)).catch(() =>{
+                infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
+            });
+        }
+        searchInput.addEventListener("keyup", e =>{
+            let word = e.target.value.replace(/\s+/g, ' ');
+            if(e.key == "Enter" && word){
+                fetchApi(word);
+            }
+        });
         
+        removeIcon.addEventListener("click", ()=>{
+            searchInput.value = "";
+            searchInput.focus();
+            wrapper.classList.remove("active");
+            infoText.style.color = "#9A9A9A";
+            infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
+        });
+        
+      
     
        
     
