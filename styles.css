@@ -168,4 +168,28 @@
   .intro{color: gold;
     
   }
+  #imagi{
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  header nav{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 ;
+  }
+  nav ul{
+    font-size: 40px;
+    color: #ffd700;
+   
+  }
+  #listyle{
+  list-style-type: none;
+  }
+  #styled{
+    text-decoration: none;
+    color: #ffd700;
+  }
+  html{ scroll-behavior: smooth;}
   
