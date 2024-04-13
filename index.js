@@ -13,7 +13,7 @@ function data(result, word){
         document.querySelector(".word p").innerText = result[0].word;
         document.querySelector(".word span").innerText = phontetics;
         document.querySelector(".meaning span").innerText = definitions.definition;
-        document.querySelector(".example span").innerText = definitions.example;
+       
 
      
             }
@@ -45,8 +45,3 @@ function data(result, word){
             infoText.style.color = "#9A9A9A";
             infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
         });
-        
-      
-    
-       
-    
